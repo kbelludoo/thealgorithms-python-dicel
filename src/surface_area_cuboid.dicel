@@ -1,0 +1,12 @@
+@DICEL:FN_SURFACE_AREA_CUBOID:1.0.0
+
+^ir="mul(C2,add(mul(P0,P1),add(mul(P1,P2),mul(P0,P2))))"
+^source_lang="python"
+
+fn$surface_area_cuboid(length:num, breadth:num, height:num)->num {
+  return (2 * ((length * breadth) + ((breadth * height) + (length * height))))
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/maths/area.py"

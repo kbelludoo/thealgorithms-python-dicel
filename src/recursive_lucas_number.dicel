@@ -1,0 +1,12 @@
+@DICEL:FN_RECURSIVE_LUCAS_NUMBER:1.0.0
+
+^ir="C2"
+^source_lang="python"
+
+fn$recursive_lucas_number(n_th_number:num)->num {
+  return 2
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/maths/lucas_series.py"

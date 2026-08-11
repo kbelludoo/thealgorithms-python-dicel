@@ -1,0 +1,28 @@
+@DICEL:RESULT_THEALGORITHMS_PYTHON:1.0.0
+
+^repo="TheAlgorithms/Python"
+^verified=4/20
+^timestamp="2026-08-11T13:51:39.425Z"
+
+@functions {
+  ~fn { name="get_point_key" ir="add(mul(P0,mul(P1,P2)),P3)" result="VERIFIED" behavior_eq="1.000" }
+  ~fn { name="not_gate" ir="if(eq(P0,C0),branch(C1,C0))" result="FAILED" behavior_eq="1.000" }
+  ~fn { name="xnor_gate" ir="if(eq(P0,P1),branch(C1,C0))" result="FAILED" behavior_eq="1.000" }
+  ~fn { name="my_max" ir="P0" result="FAILED" behavior_eq="0.625" }
+  ~fn { name="color" ir="C0" result="FAILED" behavior_eq="-" }
+  ~fn { name="change_brightness" ir="add(C128,add(P1,sub(Pc,C128)))" result="FAILED" behavior_eq="-" }
+  ~fn { name="recursive_match" ir="Pnottext" result="FAILED" behavior_eq="-" }
+  ~fn { name="astable_duty_cycle" ir="mul(div(add(P0,P1),add(P0,mul(C2,P1))),C100)" result="FAILED" behavior_eq="0.500" }
+  ~fn { name="real_power" ir="mul(P0,P1)" result="FAILED" behavior_eq="0.500" }
+  ~fn { name="price_plus_tax" ir="mul(P0,add(C1,P1))" result="VERIFIED" behavior_eq="1.000" }
+  ~fn { name="get_child_left_position" ir="add(mul(C2,P0),C1)" result="VERIFIED" behavior_eq="1.000" }
+  ~fn { name="get_child_right_position" ir="add(mul(C2,P0),C2)" result="VERIFIED" behavior_eq="1.000" }
+  ~fn { name="valid" ir="PFalse" result="FAILED" behavior_eq="-" }
+  ~fn { name="axpy" ir="add(mul(P1,P0),P2)" result="FAILED" behavior_eq="-" }
+  ~fn { name="calculate_probabilities" ir="div(P0,P1)" result="FAILED" behavior_eq="0.750" }
+  ~fn { name="arc_length" ir="mul(C2,mul(Ppi,mul(P1,div(P0,C360))))" result="FAILED" behavior_eq="-" }
+  ~fn { name="surface_area_cuboid" ir="mul(C2,add(mul(P0,P1),add(mul(P1,P2),mul(P0,P2))))" result="FAILED" behavior_eq="0.750" }
+  ~fn { name="surface_area_cylinder" ir="mul(C2,mul(Ppi,mul(P0,add(P1,P0))))" result="FAILED" behavior_eq="-" }
+  ~fn { name="area_rectangle" ir="mul(P0,P1)" result="FAILED" behavior_eq="0.750" }
+  ~fn { name="area_triangle" ir="div(mul(P0,P1),C2)" result="FAILED" behavior_eq="0.750" }
+}

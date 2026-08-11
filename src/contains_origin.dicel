@@ -1,0 +1,12 @@
+@DICEL:FN_CONTAINS_ORIGIN:1.0.0
+
+^ir="and(gt(Pa,C0),and(gt(Pb,C0),lt(add(Pa,Pb),C1)))"
+^source_lang="python"
+
+fn$contains_origin(x1:num, y1:num, x2:num, y2:num, x3:num, y3:num)->num {
+  return ((($pa > 0) && (($pb > 0) && (($pa + $pb) < 1))) ? 1 : 0)
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/project_euler/problem_102/sol1.py"

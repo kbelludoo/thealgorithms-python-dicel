@@ -1,0 +1,82 @@
+{
+  "functions": [
+    {
+      "fn": "get_point_key",
+      "original": "ab692003df39850fbe242a8b9e95111beaf997b2334421bfdaa31d7c8decab15",
+      "generated": "ab692003df39850fbe242a8b9e95111beaf997b2334421bfdaa31d7c8decab15",
+      "match": true
+    },
+    {
+      "fn": "not_gate",
+      "original": "79d964d4b59d0e6cf0f956fdc9f8aa9d0b28bb585ebdbdd7ff2e4efe8927d204",
+      "generated": "79d964d4b59d0e6cf0f956fdc9f8aa9d0b28bb585ebdbdd7ff2e4efe8927d204",
+      "match": true
+    },
+    {
+      "fn": "xnor_gate",
+      "original": "949cc66bb21a59353d2775d6d471eefc3497eff72f79430dee8a726299a0ccf7",
+      "generated": "949cc66bb21a59353d2775d6d471eefc3497eff72f79430dee8a726299a0ccf7",
+      "match": true
+    },
+    {
+      "fn": "my_max",
+      "original": "3fee61baba2009eb596276761efb34a1035b614cbef12cf5869775ae1f3e404c",
+      "generated": "67139a30a1ac590bde5d7ada64c4ae0916f13ed46a974223b130218e1dcf399f",
+      "match": false
+    },
+    {
+      "fn": "astable_duty_cycle",
+      "original": "8440513015c4b10c3dd3bef710da1738fe4e630fa61b142b4b17e0716cf092fb",
+      "generated": "82c1048cceb57d25c6b61aca79b6aa1c3c12f0a54282916fc36f3959d02a1562",
+      "match": false
+    },
+    {
+      "fn": "real_power",
+      "original": "9eddc575dd3cea1eb46f7b386a0db673e699ca8dabaeb8cdfd5fabfdee1eb760",
+      "generated": "e2b408023f9fc80b671d1c86239326b7aed58b0cd9634398e68ee79b4f93f8ec",
+      "match": false
+    },
+    {
+      "fn": "price_plus_tax",
+      "original": "af5ae95f28743876b7c51f799771cb88d6510445beec9106a0d26409cfd7c7f9",
+      "generated": "af5ae95f28743876b7c51f799771cb88d6510445beec9106a0d26409cfd7c7f9",
+      "match": true
+    },
+    {
+      "fn": "get_child_left_position",
+      "original": "3fc32e7ea36d3d3a9bcab2447cc6bf3f9d8f8fca9bcfd1d6b31b485d6b9555ed",
+      "generated": "3fc32e7ea36d3d3a9bcab2447cc6bf3f9d8f8fca9bcfd1d6b31b485d6b9555ed",
+      "match": true
+    },
+    {
+      "fn": "get_child_right_position",
+      "original": "8249d53cf9fdf0454331a0ca2fac01f4e28113c481aebfc8644bef8fc9f2a218",
+      "generated": "8249d53cf9fdf0454331a0ca2fac01f4e28113c481aebfc8644bef8fc9f2a218",
+      "match": true
+    },
+    {
+      "fn": "calculate_probabilities",
+      "original": "1c181bb3bbcdbc21313e4ddfcfc006901875968bef3ff3b4937a37496c771e9c",
+      "generated": "afd7470a72dbcee65c0b65cb80850c837331e7f8604071dd7f46fb66a83d913c",
+      "match": false
+    },
+    {
+      "fn": "surface_area_cuboid",
+      "original": "63639252a65e47217c56cb49f2cb867346f9db023884de14ac2fd356352681de",
+      "generated": "d471b3c355cdc091b23f93fe7f1a450fb3a2e8d81a3ec809bea7858ef158dafd",
+      "match": false
+    },
+    {
+      "fn": "area_rectangle",
+      "original": "d080c9ca832f0c88e0db59c52875754d74f3ddface3e12f9ec46f986cdb78440",
+      "generated": "e2b408023f9fc80b671d1c86239326b7aed58b0cd9634398e68ee79b4f93f8ec",
+      "match": false
+    },
+    {
+      "fn": "area_triangle",
+      "original": "77ac41251c47d871f5af6359f3c1b29c538cc7f855476c0b0e630cf551c8a22f",
+      "generated": "386c09d7ab719f8c8b3c33d8b4c12877cedc12fcbc9fea8e74c435c79588862d",
+      "match": false
+    }
+  ]
+}

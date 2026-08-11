@@ -1,0 +1,12 @@
+@DICEL:FN_ASTABLE_DUTY_CYCLE:1.0.0
+
+^ir="mul(div(add(P0,P1),add(P0,mul(C2,P1))),C100)"
+^source_lang="python"
+
+fn$astable_duty_cycle(resistance_1:num, resistance_2:num)->num {
+  return (((resistance_1 + resistance_2) / (resistance_1 + (2 * resistance_2))) * 100)
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/electronics/ic_555_timer.py"

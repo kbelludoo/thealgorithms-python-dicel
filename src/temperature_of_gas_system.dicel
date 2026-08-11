@@ -1,0 +1,12 @@
+@DICEL:FN_TEMPERATURE_OF_GAS_SYSTEM:1.0.0
+
+^ir="mul(P2,div(P1,mul(P0,PUNIVERSAL_GAS_CONSTANT)))"
+^source_lang="python"
+
+fn$temperature_of_gas_system(moles:num, volume:num, pressure:num)->num {
+  return (pressure * (volume / (moles * $pUNIVERSAL_GAS_CONSTANT)))
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/physics/ideal_gas_law.py"

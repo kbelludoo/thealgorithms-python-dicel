@@ -1,0 +1,12 @@
+@DICEL:FN_AREA_RHOMBUS:1.0.0
+
+^ir="mul(div(C1,C2),mul(P0,P1))"
+^source_lang="python"
+
+fn$area_rhombus(diagonal_1:num, diagonal_2:num)->num {
+  return ((1 / 2) * (diagonal_1 * diagonal_2))
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/maths/area.py"

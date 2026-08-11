@@ -1,0 +1,12 @@
+@DICEL:FN_CALCULATE_PROBABILITIES:1.0.0
+
+^ir="div(P0,P1)"
+^source_lang="python"
+
+fn$calculate_probabilities(instance_count:num, total_count:num)->num {
+  return (instance_count / total_count)
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/machine_learning/linear_discriminant_analysis.py"

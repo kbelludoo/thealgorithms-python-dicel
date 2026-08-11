@@ -1,0 +1,12 @@
+@DICEL:FN_GET_CHILD_RIGHT_POSITION:1.0.0
+
+^ir="add(mul(C2,P0),C2)"
+^source_lang="python"
+
+fn$get_child_right_position(position:num)->num {
+  return ((2 * position) + 2)
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/graphs/minimum_spanning_tree_prims2.py"

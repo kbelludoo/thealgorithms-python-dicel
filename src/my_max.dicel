@@ -1,0 +1,12 @@
+@DICEL:FN_MY_MAX:1.0.0
+
+^ir="P0"
+^source_lang="python"
+
+fn$my_max(a:num, b:num)->num {
+  return a
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/data_structures/binary_tree/avl_tree.py"

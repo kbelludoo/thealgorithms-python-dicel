@@ -1,0 +1,12 @@
+@DICEL:FN_PRICE_PLUS_TAX:1.0.0
+
+^ir="mul(P0,add(C1,P1))"
+^source_lang="python"
+
+fn$price_plus_tax(price:num, tax_rate:num)->num {
+  return (price * (1 + tax_rate))
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/financial/price_plus_tax.py"

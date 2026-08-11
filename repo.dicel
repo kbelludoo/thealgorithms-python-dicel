@@ -1,0 +1,57 @@
+@DICEL:REPO_THEALGORITHMS_PYTHON:1.0.0
+
+^repo="TheAlgorithms/Python"
+^source_commit="HEAD"
+^input_hash="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^function_count=48
+
+@functions {
+  ~fn { name="get_point_key" ir="add(mul(P0,mul(P1,P2)),P3)" ops="add+mul" file="/tmp/p200_clone_LeZvDQ/backtracking/word_search.py" }
+  ~fn { name="not_gate" ir="if(eq(P0,C0),branch(C1,C0))" ops="branch+eq+if" file="/tmp/p200_clone_LeZvDQ/boolean_algebra/not_gate.py" }
+  ~fn { name="xnor_gate" ir="if(eq(P0,P1),branch(C1,C0))" ops="branch+eq+if" file="/tmp/p200_clone_LeZvDQ/boolean_algebra/xnor_gate.py" }
+  ~fn { name="my_max" ir="P0" ops="const" file="/tmp/p200_clone_LeZvDQ/data_structures/binary_tree/avl_tree.py" }
+  ~fn { name="color" ir="C0" ops="const" file="/tmp/p200_clone_LeZvDQ/data_structures/binary_tree/red_black_tree.py" }
+  ~fn { name="change_brightness" ir="add(C128,add(P1,sub(Pc,C128)))" ops="add+c+sub" file="/tmp/p200_clone_LeZvDQ/digital_image_processing/change_brightness.py" }
+  ~fn { name="recursive_match" ir="Pnottext" ops="nottext" file="/tmp/p200_clone_LeZvDQ/dynamic_programming/regex_match.py" }
+  ~fn { name="astable_duty_cycle" ir="mul(div(add(P0,P1),add(P0,mul(C2,P1))),C100)" ops="add+div+mul" file="/tmp/p200_clone_LeZvDQ/electronics/ic_555_timer.py" }
+  ~fn { name="real_power" ir="mul(P0,P1)" ops="mul" file="/tmp/p200_clone_LeZvDQ/electronics/real_and_reactive_power.py" }
+  ~fn { name="price_plus_tax" ir="mul(P0,add(C1,P1))" ops="add+mul" file="/tmp/p200_clone_LeZvDQ/financial/price_plus_tax.py" }
+  ~fn { name="get_child_left_position" ir="add(mul(C2,P0),C1)" ops="add+mul" file="/tmp/p200_clone_LeZvDQ/graphs/minimum_spanning_tree_prims2.py" }
+  ~fn { name="get_child_right_position" ir="add(mul(C2,P0),C2)" ops="add+mul" file="/tmp/p200_clone_LeZvDQ/graphs/minimum_spanning_tree_prims2.py" }
+  ~fn { name="valid" ir="PFalse" ops="alse" file="/tmp/p200_clone_LeZvDQ/graphs/multi_heuristic_astar.py" }
+  ~fn { name="axpy" ir="add(mul(P1,P0),P2)" ops="add+mul" file="/tmp/p200_clone_LeZvDQ/linear_algebra/src/lib.py" }
+  ~fn { name="calculate_probabilities" ir="div(P0,P1)" ops="div" file="/tmp/p200_clone_LeZvDQ/machine_learning/linear_discriminant_analysis.py" }
+  ~fn { name="arc_length" ir="mul(C2,mul(Ppi,mul(P1,div(P0,C360))))" ops="div+mul+pi" file="/tmp/p200_clone_LeZvDQ/maths/arc_length.py" }
+  ~fn { name="surface_area_cuboid" ir="mul(C2,add(mul(P0,P1),add(mul(P1,P2),mul(P0,P2))))" ops="add+mul" file="/tmp/p200_clone_LeZvDQ/maths/area.py" }
+  ~fn { name="surface_area_cylinder" ir="mul(C2,mul(Ppi,mul(P0,add(P1,P0))))" ops="add+mul+pi" file="/tmp/p200_clone_LeZvDQ/maths/area.py" }
+  ~fn { name="area_rectangle" ir="mul(P0,P1)" ops="mul" file="/tmp/p200_clone_LeZvDQ/maths/area.py" }
+  ~fn { name="area_triangle" ir="div(mul(P0,P1),C2)" ops="div+mul" file="/tmp/p200_clone_LeZvDQ/maths/area.py" }
+  ~fn { name="area_parallelogram" ir="mul(P0,P1)" ops="mul" file="/tmp/p200_clone_LeZvDQ/maths/area.py" }
+  ~fn { name="area_trapezium" ir="mul(div(C1,C2),mul(add(P0,P1),P2))" ops="add+div+mul" file="/tmp/p200_clone_LeZvDQ/maths/area.py" }
+  ~fn { name="area_ellipse" ir="mul(Ppi,mul(P0,P1))" ops="mul+pi" file="/tmp/p200_clone_LeZvDQ/maths/area.py" }
+  ~fn { name="area_rhombus" ir="mul(div(C1,C2),mul(P0,P1))" ops="div+mul" file="/tmp/p200_clone_LeZvDQ/maths/area.py" }
+  ~fn { name="josephus_recursive" ir="C0" ops="const" file="/tmp/p200_clone_LeZvDQ/maths/josephus_problem.py" }
+  ~fn { name="recursive_lucas_number" ir="C2" ops="const" file="/tmp/p200_clone_LeZvDQ/maths/lucas_series.py" }
+  ~fn { name="equation" ir="sub(C10,mul(P0,P0))" ops="mul+sub" file="/tmp/p200_clone_LeZvDQ/maths/numerical_analysis/bisection_2.py" }
+  ~fn { name="f" ir="mul(P0,P0)" ops="mul" file="/tmp/p200_clone_LeZvDQ/maths/numerical_analysis/integration_by_simpson_approx.py" }
+  ~fn { name="fx_derivative" ir="mul(C2,P0)" ops="mul" file="/tmp/p200_clone_LeZvDQ/maths/numerical_analysis/square_root.py" }
+  ~fn { name="is_even" ir="eq(mod(P0,C2),C0)" ops="eq+mod" file="/tmp/p200_clone_LeZvDQ/maths/primelib.py" }
+  ~fn { name="is_odd" ir="ne(mod(P0,C2),C0)" ops="mod+ne" file="/tmp/p200_clone_LeZvDQ/maths/primelib.py" }
+  ~fn { name="radians" ir="div(P0,div(C180,Ppi))" ops="div+pi" file="/tmp/p200_clone_LeZvDQ/maths/radians.py" }
+  ~fn { name="signum" ir="C-1" ops="const" file="/tmp/p200_clone_LeZvDQ/maths/signum.py" }
+  ~fn { name="vol_cone" ir="mul(P0,div(P1,C3))" ops="div+mul" file="/tmp/p200_clone_LeZvDQ/maths/volume.py" }
+  ~fn { name="vol_pyramid" ir="mul(P0,div(P1,C3))" ops="div+mul" file="/tmp/p200_clone_LeZvDQ/maths/volume.py" }
+  ~fn { name="is_safe" ir="and(lt(lte(C0,P0),P2),lt(lte(C0,P1),P3))" ops="and+lt+lte" file="/tmp/p200_clone_LeZvDQ/matrix/max_area_of_island.py" }
+  ~fn { name="sigmoid_function" ir="mul(P0,sub(C1,P0))" ops="mul+sub" file="/tmp/p200_clone_LeZvDQ/neural_network/simple_neural_network.py" }
+  ~fn { name="pressure_of_gas_system" ir="mul(P0,mul(P1,div(PUNIVERSAL_GAS_CONSTANT,P2)))" ops="div+mul" file="/tmp/p200_clone_LeZvDQ/physics/ideal_gas_law.py" }
+  ~fn { name="volume_of_gas_system" ir="mul(P0,mul(P1,div(PUNIVERSAL_GAS_CONSTANT,P2)))" ops="div+mul" file="/tmp/p200_clone_LeZvDQ/physics/ideal_gas_law.py" }
+  ~fn { name="temperature_of_gas_system" ir="mul(P2,div(P1,mul(P0,PUNIVERSAL_GAS_CONSTANT)))" ops="div+mul" file="/tmp/p200_clone_LeZvDQ/physics/ideal_gas_law.py" }
+  ~fn { name="moles_of_gas_system" ir="mul(P2,div(P1,mul(P0,PUNIVERSAL_GAS_CONSTANT)))" ops="div+mul" file="/tmp/p200_clone_LeZvDQ/physics/ideal_gas_law.py" }
+  ~fn { name="beta" ir="div(P0,Pc)" ops="c+div" file="/tmp/p200_clone_LeZvDQ/physics/lorentz_transformation_four_vector.py" }
+  ~fn { name="potential_energy" ir="mul(P0,mul(Pg,P1))" ops="g+mul" file="/tmp/p200_clone_LeZvDQ/physics/potential_energy.py" }
+  ~fn { name="hexagonal_num" ir="mul(P0,sub(mul(C2,P0),C1))" ops="mul+sub" file="/tmp/p200_clone_LeZvDQ/project_euler/problem_045/sol1.py" }
+  ~fn { name="contains_origin" ir="and(gt(Pa,C0),and(gt(Pb,C0),lt(add(Pa,Pb),C1)))" ops="a+add+and+b+gt+lt" file="/tmp/p200_clone_LeZvDQ/project_euler/problem_102/sol1.py" }
+  ~fn { name="is_sq" ir="eq(P0,mul(Psq,Psq))" ops="eq+mul+sq" file="/tmp/p200_clone_LeZvDQ/project_euler/problem_180/sol1.py" }
+  ~fn { name="rec_linear_search" ir="C-1" ops="const" file="/tmp/p200_clone_LeZvDQ/searches/linear_search.py" }
+  ~fn { name="is_palindrome_recursive" ir="PTrue" ops="rue" file="/tmp/p200_clone_LeZvDQ/strings/palindrome.py" }
+}

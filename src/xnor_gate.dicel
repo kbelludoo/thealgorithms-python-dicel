@@ -1,0 +1,12 @@
+@DICEL:FN_XNOR_GATE:1.0.0
+
+^ir="if(eq(P0,P1),branch(C1,C0))"
+^source_lang="python"
+
+fn$xnor_gate(input_1:num, input_2:num)->num {
+  return ((input_1 == input_2) ? 1 : 0)
+}
+^hash_input="4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+^hash_output="pending"
+^equivalence="pending"
+^source_file="/tmp/p200_clone_LeZvDQ/boolean_algebra/xnor_gate.py"
